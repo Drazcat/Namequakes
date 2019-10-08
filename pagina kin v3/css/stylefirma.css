@@ -1,0 +1,32 @@
+  .boton_personalizado{
+    border:5px solid #6666ff;
+    border-left-width: 65px;
+    border-right-width: 65px;
+    border-radius: 100px;
+    background: #6666ff;
+    padding: 2px 4px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .container1{
+    border:#6666ff solid 2px;
+    border-radius: 50px;
+    height:200px;
+    text-align: center;
+    min-width: 420px;
+    max-width: 550px;
+    background: transparent;
+}
+#right{
+    text-align: right;
+}
+#center{
+    text-align: center;
+}
+#left{
+    text-align: left;
+}
+body {
+text-align:center;
+background-color:#E2FDFF;
+ }

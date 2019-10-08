@@ -1,0 +1,191 @@
+/*--style.css--kin*/
+img{
+	background: transparent;
+}
+body{
+	/*background: #000000;*/
+	background: #0C0C11;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.4rem;
+}
+h1{
+	color:white;
+	font-size: 10px;
+	padding-bottom: 40px;
+}
+h2{
+	font-family: arial;
+	color:white;
+	font-size: 16px;
+}
+h3{	
+	font-family: arial;
+	font-weight: lighter;
+	color:white;
+	font-size: 35px;
+	padding-right: 150px;
+}
+h4{
+	color:white;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 100px;
+}
+h5{
+	color:white;
+	font-family: arial;
+	font-weight: lighter;
+	font-size: 35px;
+}
+p{
+	font-family: 'Avenir Next Ultra Light';
+	color:white;	
+	text-align: left;
+	padding-bottom: 40px;
+}
+.btn{
+
+	border:5px solid #6666ff;
+	border-left-width: 65px;
+	border-right-width: 65px;
+	border-radius: 100px;
+	background: #6666ff;
+	padding: 2px 4px;
+	cursor: pointer;
+	font-size: 10px;
+}
+.btn1,.btn2{
+	color: white;
+}
+.banner img{
+	height: 200px;
+	position: relative;
+	font-size: 20px;
+}
+.container1{
+	border:#6666ff solid 2px;
+	border-radius: 50px;
+	height:200px;
+	background: transparent;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 20px;
+	min-width: 420px;
+	max-width: 550px;
+}
+.container2{	
+	border:#6666ff solid 2px;
+	float:right;
+	border-radius: 50px;
+	height:200px;
+	background: transparent;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 20px;
+	min-width: 420px;
+	max-width: 550px;
+}
+.centrado{
+	text-align: center;
+}
+.teresa{
+	width:100%;
+}
+.anciano img{
+	position:relative;
+	font-size: 20px;
+}
+.anciana img{
+	position:relative;
+	font-size: 20px;
+}
+.slogan{
+
+}
+.box-row,
+.box-first,
+.box-nested,
+.box-large,
+.box {
+  position: relative;
+  min-height: 1rem;
+  margin-bottom: 0;
+  background: transparent;/*Cambio de color xDDDD*/
+  overflow: hidden;
+  border-radius: 0px;
+  text-align: center;
+  color: black;
+}
+.box-row {
+  margin-bottom: 1rem;
+}
+.box-first {
+  background: #000000;
+  border-color: #000000;
+}
+.box-nested {
+  background: #000000;
+  border-color: #000000;
+}
+.box-large {
+  height: 600px;
+}
+.box-container {
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.page-footer {
+  box-sizing: border-box;
+  padding-bottom: 3rem;
+}
+.tag {
+  color: #000;
+  font-weight: normal;
+}
+.end {
+  text-align: end;
+}
+.invisible-xs {
+  display: none;
+  visibility: hidden;
+}
+.visible-xs {
+  display: block;
+  visibility: visible;
+}
+
+#banner{
+	height:200px;
+}
+
+#right{
+	text-align: right;
+}
+#center{
+	text-align: center;
+}
+#left{
+	text-align: left;
+}
+@font-face {
+    font-family: 'Avenir Next Ultra';
+    src: url(fonts/AvenirNext-UltraLight-11.ttf);
+    src: url('AvenirNext-UltraLight.eot');
+    src: url('AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('AvenirNext-UltraLight.woff2') format('woff2'),
+        url('AvenirNext-UltraLight.woff') format('woff'),
+        url('AvenirNext-UltraLight.ttf') format('truetype'),
+        url('AvenirNext-UltraLight.svg#AvenirNext-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face{
+	font-family: 'Avenir Next Ultra Light';
+	src: url(fonts/AvenirNext-UltraLight-11.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
